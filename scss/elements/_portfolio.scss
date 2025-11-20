@@ -94,6 +94,14 @@
             background-image: url(/assets/images/projects/podland.jpg);
         }
 
+        &.image-marinbikes {
+            background-image: url(/assets/images/projects/marinbikes.png);
+        }
+
+        &.image-caretech {
+            background-image: url(/assets/images/projects/caretech.png);
+        }
+
         &::after{
             background-color: rgba(45,45,45,.85);
             position: absolute;

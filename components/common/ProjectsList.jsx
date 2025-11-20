@@ -59,6 +59,20 @@ const portfolioList = [
     description: "e commerce cigarette electronique",
     link: "https://podland.vn/",
   },
+  {
+    image: "image-marinbikes",
+    category: "Wordpress",
+    title: "marinbikes",
+    description: "e commerce bike",
+    link: "https://marinbikes.vn/",
+  },
+  {
+    image: "image-caretech",
+    category: "ReactJS",
+    title: "caretech",
+    description: "Manager hospital",
+    link: "",
+  },
 ];
 
 const ProjectsList = (props) => {
