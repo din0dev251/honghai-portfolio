@@ -1,0 +1,140 @@
+{
+  "RootLayout": {
+    "home_link": "Trang chủ",
+    "about_link": "Giới thiệu",
+    "counter_link": "Counter",
+    "portfolio_link": "Portfolio",
+    "sign_in_link": "Đăng nhập",
+    "sign_up_link": "Đăng ký"
+  },
+  "BaseTemplate": {
+    "description": "Starter code for your Nextjs Boilerplate with Tailwind CSS",
+    "made_with": "Made with <author></author>."
+  },
+  "Index": {
+    "meta_title": "Next.js Boilerplate Presentation",
+    "meta_description": "Next js Boilerplate is the perfect starter code for your project. Build your React application with the Next.js framework.",
+    "sponsors_title": "Sponsors"
+  },
+  "Counter": {
+    "meta_title": "Counter",
+    "meta_description": "An example of DB operation",
+    "loading_counter": "Đang tải counter...",
+    "security_powered_by": "Security, bot detection and rate limiting powered by"
+  },
+  "CounterForm": {
+    "presentation": "The counter is stored in the database and incremented by the value you provide.",
+    "label_increment": "Increment by",
+    "button_increment": "Increment"
+  },
+  "CurrentCount": {
+    "count": "Count: {count}"
+  },
+  "About": {
+    "meta_title": "Giới thiệu",
+    "meta_description": "About page description",
+    "about_paragraph": "Welcome to our About page! We are a team of passionate individuals dedicated to creating amazing software.",
+    "translation_powered_by": "Translation powered by"
+  },
+  "Portfolio": {
+    "meta_title": "Portfolio DinoDev",
+    "meta_description": "Chào mừng đến với trang portfolio của tôi!",
+    "presentation": "Chào mừng đến với trang portfolio của tôi! Ở đây bạn sẽ tìm thấy một bộ sưu tập được tuyển chọn cẩn thận về công việc và thành tựu của tôi. Thông qua portfolio này, tôi muốn thể hiện chuyên môn, sự sáng tạo và giá trị mà tôi có thể mang lại cho các dự án của bạn.",
+    "portfolio_name": "Portfolio {name}",
+    "error_reporting_powered_by": "Error reporting powered by",
+    "coverage_powered_by": "Code coverage powered by"
+  },
+  "PortfolioSlug": {
+    "meta_title": "Portfolio {slug}",
+    "meta_description": "Portfolio {slug} description",
+    "header": "Portfolio {slug}",
+    "content": "Created a set of promotional materials and branding elements for a corporate event. Crafted a visually unified theme, encompassing a logo, posters, banners, and digital assets. Integrated the client's brand identity while infusing it with a contemporary and innovative approach. Garnered favorable responses from event attendees, resulting in a successful event with heightened participant engagement and increased brand visibility.",
+    "log_management_powered_by": "Log management powered by"
+  },
+  "SignIn": {
+    "meta_title": "Đăng nhập",
+    "meta_description": "Seamlessly sign in to your account with our user-friendly login process."
+  },
+  "SignUp": {
+    "meta_title": "Đăng ký",
+    "meta_description": "Effortlessly create an account through our intuitive sign-up process."
+  },
+  "Dashboard": {
+    "meta_title": "Dashboard",
+    "hello_message": "Hello {email}!",
+    "alternative_message": "Want to build your SaaS faster using the same stack? Try <url></url>."
+  },
+  "UserProfile": {
+    "meta_title": "User Profile"
+  },
+  "DashboardLayout": {
+    "dashboard_link": "Dashboard",
+    "user_profile_link": "Manage your account",
+    "sign_out": "Sign out"
+  },
+  "Shared": {
+    "login": "Đăng nhập",
+    "yes": "Có",
+    "close": "Đóng",
+    "settings": "Cài đặt",
+    "logout": "Đăng xuất"
+  },
+  "Header": {
+    "home": "Trang chủ",
+    "about": "Giới thiệu",
+    "services": "Dịch vụ",
+    "projects": "Dự án",
+    "contact": "Liên hệ"
+  },
+  "Hero": {
+    "welcome": "Chào mừng đến với portfolio của tôi",
+    "hi": "Xin chào, tôi là",
+    "web_developer": "Web Developer",
+    "base": "Đặt tại Việt Nam."
+  },
+  "AboutSection": {
+    "title": "Về Tôi",
+    "description_1": "Tôi là một developer đam mê với con mắt tinh tế về thiết kế và tình yêu với việc tạo ra những trải nghiệm người dùng xuất sắc. Với nhiều năm kinh nghiệm trong phát triển web, tôi chuyên về việc xây dựng các ứng dụng hiện đại, responsive và hiệu suất cao.",
+    "description_2": "Phương pháp của tôi kết hợp chuyên môn kỹ thuật với giải quyết vấn đề sáng tạo, đảm bảo rằng mọi dự án tôi làm việc không chỉ đáp ứng mà còn vượt quá mong đợi.",
+    "years_experience": "Năm Kinh Nghiệm",
+    "projects_completed": "Dự Án Hoàn Thành"
+  },
+  "Services": {
+    "title": "Dịch Vụ",
+    "subtitle": "Tôi cung cấp nhiều loại dịch vụ để giúp biến ý tưởng của bạn thành hiện thực"
+  },
+  "Projects": {
+    "title": "Dự Án Nổi Bật",
+    "subtitle": "Một lựa chọn các công việc gần đây của tôi thể hiện kỹ năng và chuyên môn",
+    "live_demo": "Live Demo"
+  },
+  "Contact": {
+    "title": "Liên Hệ",
+    "subtitle": "Có dự án trong đầu? Hãy cùng nhau biến ý tưởng của bạn thành hiện thực.",
+    "contact_info": "Thông Tin Liên Hệ",
+    "name": "Tên",
+    "email": "Email",
+    "subject": "Chủ đề",
+    "message": "Tin nhắn",
+    "send_message": "Gửi Tin Nhắn",
+    "name_placeholder": "Tên của bạn",
+    "email_placeholder": "your.email@example.com",
+    "subject_placeholder": "Chủ đề",
+    "message_placeholder": "Tin nhắn của bạn...",
+    "name_required": "Tên là bắt buộc",
+    "email_required": "Email là bắt buộc",
+    "email_invalid": "Địa chỉ email không hợp lệ",
+    "subject_required": "Chủ đề là bắt buộc",
+    "message_required": "Tin nhắn là bắt buộc",
+    "success_message": "Tin nhắn đã được gửi thành công! Tôi sẽ phản hồi sớm.",
+    "error_message": "Gửi tin nhắn thất bại. Vui lòng thử lại."
+  },
+  "Footer": {
+    "brand": "Din0dev (Hồng Hải) - Front-end Developer",
+    "description": "Một developer sáng tạo đam mê xây dựng những trải nghiệm web đẹp và chức năng.",
+    "quick_links": "Liên Kết Nhanh",
+    "follow_me": "Theo Dõi Tôi",
+    "copyright": "© {year} Din0dev (Hồng Hải). Tất cả quyền được bảo lưu."
+  }
+}
+

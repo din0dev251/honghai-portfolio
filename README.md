@@ -1,40 +1,41 @@
-<h1 align="center">My Portfolio</h1>
-<h2 align="center">React + Next.js + Redux + Redux Saga + Scss</h2>
-<p align="center">
-  <a href="https://nextjs.org/" target="_blank"><img src="https://img.shields.io/badge/Next.js-v9.3.5-blueviolet.svg"></a>
-  <a href="https://reactjs.org/" target="_blank"><img src="https://img.shields.io/badge/React-v16.13.1-%238DD6F9.svg?logo=React"></a>
-  <a href="https://github.com/codica2" target="_blank"><img src="https://img.shields.io/badge/licence-MIT-green.svg" /></a>
-</p>
+<!--
+                           _
+                        _ooOoo_
+                       o8888888o
+                       88" . "88
+                       (| -_- |)
+                       O\  =  /O
+                    ____/`---'\____
+                  .'  \\|     |//  `.
+                 /  \\|||  :  |||//  \
+                /  _||||| -:- |||||_  \
+                |   | \\\  -  /'| |   |
+                | \_|  `\`---'//  |_/ |
+                \  .-\__ `-. -'__/-.  /
+              ___`. .'  /--.--\  `. .'___
+           ."" '<  `.___\_<|>_/___.' _> \"".
+          | | :  `- \`. ;`. _/; .'/ /  .' ; |
+          \  \ `-.   \_\_`. _.'_/_/  -' _.' /
+===========`-.`___`-.__\ \___  /__.-'_.'_.-'================
+                        `=--=-'
 
-## Packges use in template:
+           ! ADIDAPHAT - NO BUG... NO BUG... !
+-->
 
-- React.js
-- Next.js
-- SCSS
-- Redux
-- Redux Saga
-- Axios
-- Formik
-- Yup Validator
+### NextJS 14 / Formik / Axios / Tailwindcss / NextIntl
 
-## How to use
+## Requirement
+Node version: v20.19.0
 
-```javascript
-npm i
-npm run dev ( developepment )
-npm start ( production )
+VSCode Extensions:
+- i18n Ally 
+
+## Getting Started
+
+First, run the development server:
+
+```bash
+pnpm install
+
+pnpm dev
 ```
-
-## Environment
-
-You can access your .env variables by deconstructing 'process.env' object, both on client and server.
-Just make sure that you reboot the server when updating .env file
-
-### Development
-
-- Upgrade Nextjs 9.3.
-- Restructure Redux folder. 
-
-## Credit
-
-- Cre: <a href="https://github.com/donezombie/next-js-dzb" target="_blank">DoneZombie</a>

@@ -1,0 +1,139 @@
+{
+  "RootLayout": {
+    "home_link": "Home",
+    "about_link": "About",
+    "counter_link": "Counter",
+    "portfolio_link": "Portfolio",
+    "sign_in_link": "Sign in",
+    "sign_up_link": "Sign up"
+  },
+  "BaseTemplate": {
+    "description": "Starter code for your Nextjs Boilerplate with Tailwind CSS",
+    "made_with": "Made with <author></author>."
+  },
+  "Index": {
+    "meta_title": "Next.js Boilerplate Presentation",
+    "meta_description": "Next js Boilerplate is the perfect starter code for your project. Build your React application with the Next.js framework.",
+    "sponsors_title": "Sponsors"
+  },
+  "Counter": {
+    "meta_title": "Counter",
+    "meta_description": "An example of DB operation",
+    "loading_counter": "Loading counter...",
+    "security_powered_by": "Security, bot detection and rate limiting powered by"
+  },
+  "CounterForm": {
+    "presentation": "The counter is stored in the database and incremented by the value you provide.",
+    "label_increment": "Increment by",
+    "button_increment": "Increment"
+  },
+  "CurrentCount": {
+    "count": "Count: {count}"
+  },
+  "About": {
+    "meta_title": "About",
+    "meta_description": "About page description",
+    "about_paragraph": "Welcome to our About page! We are a team of passionate individuals dedicated to creating amazing software.",
+    "translation_powered_by": "Translation powered by"
+  },
+  "Portfolio": {
+    "meta_title": "Portfolio DinoDev",
+    "meta_description": "Welcome to my portfolio page!",
+    "presentation": "Welcome to my portfolio page! Here you will find a carefully curated collection of my work and accomplishments. Through this portfolio, I'm to showcase my expertise, creativity, and the value I can bring to your projects.",
+    "portfolio_name": "Portfolio {name}",
+    "error_reporting_powered_by": "Error reporting powered by",
+    "coverage_powered_by": "Code coverage powered by"
+  },
+  "Header": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "Hero": {
+    "welcome": "Welcome to my portfolio",
+    "hi": "Hi, I'm",
+    "web_developer": "Web Developer",
+    "base": "Base in Viet Nam."
+  },
+  "AboutSection": {
+    "title": "About Me",
+    "description_1": "I'm a passionate developer with a keen eye for design and a love for creating exceptional user experiences. With years of experience in web development, I specialize in building modern, responsive, and performant applications.",
+    "description_2": "My approach combines technical expertise with creative problem-solving, ensuring that every project I work on not only meets but exceeds expectations.",
+    "years_experience": "Years Experience",
+    "projects_completed": "Projects Completed"
+  },
+  "Services": {
+    "title": "Services",
+    "subtitle": "I offer a wide range of services to help bring your ideas to life"
+  },
+  "Projects": {
+    "title": "Featured Projects",
+    "subtitle": "A selection of my recent work showcasing my skills and expertise",
+    "live_demo": "Live Demo"
+  },
+  "Contact": {
+    "title": "Get In Touch",
+    "subtitle": "Have a project in mind? Let's work together to bring your ideas to life.",
+    "contact_info": "Contact Information",
+    "name": "Name",
+    "email": "Email",
+    "subject": "Subject",
+    "message": "Message",
+    "send_message": "Send Message",
+    "name_placeholder": "Your Name",
+    "email_placeholder": "your.email@example.com",
+    "subject_placeholder": "Subject",
+    "message_placeholder": "Your message...",
+    "name_required": "Name is required",
+    "email_required": "Email is required",
+    "email_invalid": "Invalid email address",
+    "subject_required": "Subject is required",
+    "message_required": "Message is required",
+    "success_message": "Message sent successfully! I'll get back to you soon.",
+    "error_message": "Failed to send message. Please try again."
+  },
+  "Footer": {
+    "brand": "Din0dev (Hong Hai) - Front-end Developer",
+    "description": "A creative developer passionate about building beautiful and functional web experiences.",
+    "quick_links": "Quick Links",
+    "follow_me": "Follow Me",
+    "copyright": "© {year} Din0dev (Hong Hai). All rights reserved."
+  },
+  "PortfolioSlug": {
+    "meta_title": "Portfolio {slug}",
+    "meta_description": "Portfolio {slug} description",
+    "header": "Portfolio {slug}",
+    "content": "Created a set of promotional materials and branding elements for a corporate event. Crafted a visually unified theme, encompassing a logo, posters, banners, and digital assets. Integrated the client's brand identity while infusing it with a contemporary and innovative approach. Garnered favorable responses from event attendees, resulting in a successful event with heightened participant engagement and increased brand visibility.",
+    "log_management_powered_by": "Log management powered by"
+  },
+  "SignIn": {
+    "meta_title": "Sign in",
+    "meta_description": "Seamlessly sign in to your account with our user-friendly login process."
+  },
+  "SignUp": {
+    "meta_title": "Sign up",
+    "meta_description": "Effortlessly create an account through our intuitive sign-up process."
+  },
+  "Dashboard": {
+    "meta_title": "Dashboard",
+    "hello_message": "Hello {email}!",
+    "alternative_message": "Want to build your SaaS faster using the same stack? Try <url></url>."
+  },
+  "UserProfile": {
+    "meta_title": "User Profile"
+  },
+  "DashboardLayout": {
+    "dashboard_link": "Dashboard",
+    "user_profile_link": "Manage your account",
+    "sign_out": "Sign out"
+  },
+  "Shared": {
+    "login": "Login",
+    "yes": "Yes",
+    "close": "Close",
+    "settings": "Settings",
+    "logout": "Logout"
+  }
+}
