@@ -4,10 +4,7 @@ import {
   Palette,
   Smartphone,
   Github,
-  Linkedin,
-  Twitter,
   Mail,
-  Phone,
   MapPin,
 } from "lucide-react";
 

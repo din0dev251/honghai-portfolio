@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { Montserrat, Open_Sans } from "next/font/google";
 import { routing } from "@/lib/i18nNavigation";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages, setRequestLocale } from "next-intl/server";
@@ -9,18 +8,6 @@ import { ReactQueryProvider } from "@/providers/ReactQueryProvider";
 
 import "@/styles/globals.css";
 import SidebarProvider from "@/providers/SidebarProvider";
-
-const montserrat = Montserrat({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800"],
-  variable: "--font-heading",
-});
-
-const openSans = Open_Sans({
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
-  variable: "--font-body",
-});
 
 export const metadata: Metadata = {
   icons: [
@@ -74,10 +61,6 @@ export default async function RootLayout(props: {
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700&display=swap"
-          rel="stylesheet"
-        />
       </head>
       <body suppressHydrationWarning={true}>
         <NextIntlClientProvider locale={locale} messages={messages}>
