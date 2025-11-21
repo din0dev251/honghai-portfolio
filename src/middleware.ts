@@ -4,7 +4,6 @@ import { NextResponse } from "next/server";
 import { routing } from "./lib/i18nNavigation";
 import type { Auth } from "./interfaces/auth.interface";
 import { JWT_AUTH } from "./constants/common";
-import { isEmpty } from "lodash";
 import { AppConfig } from "./utils/appConfig";
 import urls from "./constants/urls";
 
@@ -19,7 +18,7 @@ export default async function middleware(
   // event: NextFetchEvent,
 ) {
   const auth = JSON.parse(request.cookies.get(JWT_AUTH)?.value || "{}") as Auth;
-  const isLogged = !isEmpty(auth);
+  const isLogged = auth && Object.keys(auth).length > 0;
 
   // Extract the URL pathname from the request
   const path = request.nextUrl.pathname;
