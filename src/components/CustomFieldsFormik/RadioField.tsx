@@ -51,8 +51,11 @@ const RadioField = (props: RadioFieldProps & AdditionalFormikProps) => {
       >
         {options?.map((el, index) => {
           const id = `${el.label}-${index}`;
+          const key = typeof el.value === 'string' || typeof el.value === 'number' 
+            ? el.value 
+            : `radio-${index}`;
           return (
-            <div key={el.label} className={twMerge("flex gap-3")}>
+            <div key={key} className={twMerge("flex gap-3")}>
               <RadioGroupItem
                 id={id}
                 checked={value === el.value}
