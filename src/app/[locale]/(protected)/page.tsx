@@ -1,5 +1,11 @@
-import Homepage from "./page-client";
+"use client";
+import ExampleComponents from "@/components/ExampleComponents";
 
-export default function HomepagePage() {
-  return <Homepage />;
+export default function ProtectedPage() {
+  return (
+    <div>
+      <h2 className="mb-3">Example components</h2>
+      <ExampleComponents />
+    </div>
+  );
 }
