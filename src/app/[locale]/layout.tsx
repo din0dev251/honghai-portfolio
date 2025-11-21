@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { routing } from "@/lib/i18nNavigation";
 import { NextIntlClientProvider } from "next-intl";
-import { getMessages, setRequestLocale } from "next-intl/server";
+import { getMessages, setRequestLocale, getTranslations } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { ToastContainer } from "react-toastify";
 import { ReactQueryProvider } from "@/providers/ReactQueryProvider";
@@ -9,30 +9,45 @@ import { ReactQueryProvider } from "@/providers/ReactQueryProvider";
 import "@/styles/globals.css";
 import SidebarProvider from "@/providers/SidebarProvider";
 
-export const metadata: Metadata = {
-  icons: [
-    {
-      rel: "apple-touch-icon",
-      url: "/apple-touch-icon.png",
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  setRequestLocale(locale);
+  const t = await getTranslations({ locale, namespace: "Index" });
+
+  return {
+    title: {
+      default: t("meta_title"),
+      template: "%s | Din0dev Portfolio",
     },
-    {
-      rel: "icon",
-      type: "image/png",
-      sizes: "32x32",
-      url: "/favicon-32x32.png",
-    },
-    {
-      rel: "icon",
-      type: "image/png",
-      sizes: "16x16",
-      url: "/favicon-16x16.png",
-    },
-    {
-      rel: "icon",
-      url: "/favicon.ico",
-    },
-  ],
-};
+    description: t("meta_description"),
+    icons: [
+      {
+        rel: "apple-touch-icon",
+        url: "/apple-touch-icon.png",
+      },
+      {
+        rel: "icon",
+        type: "image/png",
+        sizes: "32x32",
+        url: "/favicon-32x32.png",
+      },
+      {
+        rel: "icon",
+        type: "image/png",
+        sizes: "16x16",
+        url: "/favicon-16x16.png",
+      },
+      {
+        rel: "icon",
+        url: "/favicon.ico",
+      },
+    ],
+  };
+}
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
