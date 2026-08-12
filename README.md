@@ -1,81 +1,122 @@
-# Hồng Hải — Portfolio
+<div align="center">
 
-Personal portfolio of **Hồng Hải** — Senior Frontend / Fullstack Developer and Founder at [TespDev](https://tespdev.com).
+# Hồng Hải
 
-Built with **Next.js 14**, **TypeScript**, **Tailwind CSS**, and **next-intl** (English / Vietnamese).
+**Senior Frontend / Fullstack Developer** · **Founder at [TespDev](https://tespdev.com)**
 
-## About
+Based in Vietnam 🇻🇳
 
-Frontend-focused Fullstack Developer based in Vietnam, with 6+ years of experience building modern web applications, enterprise systems, e-commerce platforms, and digital products.
+[![Next.js](https://img.shields.io/badge/Next.js-14-black?logo=nextdotjs&logoColor=white)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-3-06B6D4?logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+[![i18n](https://img.shields.io/badge/i18n-EN%20%2F%20VI-orange)](./src/locales)
 
-Main stack: **ReactJS**, **VueJS**, **TypeScript**, with hands-on **NodeJS** for backend and system integration.
+[TespDev](https://tespdev.com) · [GitHub](https://github.com/din0dev251) · [Email](mailto:honghai251.info@gmail.com)
 
-## Sections
+</div>
 
-- Hero & About
-- Experience (Software Engineer at Phuong Dong General Hospital · Founder at TespDev)
-- What I Do
-- Technical Skills (with icons)
-- Trusted Partners
-- Featured Projects
-- Approach
-- Contact
+---
+
+## Overview
+
+Personal portfolio website showcasing experience across **enterprise systems**, **healthcare**, **e-commerce**, **event technology**, and **digital products**.
+
+Frontend-focused Fullstack Developer with **6+ years** of experience. Main expertise in **ReactJS**, **VueJS**, and **TypeScript**, with hands-on **NodeJS** for backend and system integration.
+
+| | |
+|---|---|
+| **6+** | Years of software development |
+| **20+** | Projects completed |
+| **3–5** | Developers led in frontend teams |
+| **2+** | Years of NodeJS experience |
+| **2,000–5,000+** | Typical event scale via TespDev |
+
+---
+
+## Portfolio Sections
+
+| Section | Content |
+|---------|---------|
+| **Hero / About** | Profile, domains, experience in numbers |
+| **Experience** | Software Engineer @ Phuong Dong General Hospital · Founder @ TespDev · Clients |
+| **What I Do** | Web apps, enterprise systems, event tech, fullstack |
+| **Technical Skills** | Frontend, backend, database, DevOps — with icons |
+| **Trusted Partners** | Viettel, VPBank, HABECO, APECO, OVERMORE, and more |
+| **Featured Projects** | CareTech, WinMart, True Hope, Vinpearl, T99, Adiary… |
+| **Approach / Contact** | Working principles + contact form |
+
+---
 
 ## Tech Stack
 
-| Area | Tools |
-|------|--------|
-| Framework | Next.js 14 (App Router) |
-| Language | TypeScript |
-| UI | Tailwind CSS, Radix UI, Lucide |
-| Forms | Formik, Yup |
-| i18n | next-intl (`en` / `vi`) |
-| Data fetching | TanStack Query, Axios |
-| Tooling | ESLint, Prettier, Husky |
+**App**
 
-## Requirements
+`Next.js 14` `TypeScript` `Tailwind CSS` `next-intl`
 
-- **Node.js** `v20.19.0` (recommended)
-- npm
+**UI & Forms**
 
-Optional VS Code extension: [i18n Ally](https://marketplace.visualstudio.com/items?itemName=Lokalise.i18n-ally)
+`Radix UI` `Lucide` `Formik` `Yup`
+
+**Data**
+
+`TanStack Query` `Axios`
+
+**Tooling**
+
+`ESLint` `Prettier` `Husky`
+
+---
 
 ## Getting Started
+
+**Requirements:** Node.js `v20.19.0` (recommended) · npm
 
 ```bash
 npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000).
+Open [http://localhost:3000](http://localhost:3000)
 
-### Scripts
-
-| Command | Description |
-|---------|-------------|
-| `npm run dev` | Start development server |
+| Script | Description |
+|--------|-------------|
+| `npm run dev` | Development server |
 | `npm run build` | Production build |
 | `npm run start` | Start production server |
-| `npm run lint` | Run ESLint |
+| `npm run lint` | ESLint |
+
+---
 
 ## Project Structure
 
 ```text
-src/
-  app/[locale]/          # App Router pages (en / vi)
-  components/Portfolio/  # Portfolio sections
-  data/portfolio.ts      # Projects, experience, skills, partners
-  locales/               # en.json / vi.json
-public/assets/           # Images, partner logos, skill icons
+honghai-portfolio/
+├── public/assets/
+│   ├── partners/          # Trusted partner logos
+│   └── icons/skills/      # Technical skill icons
+├── src/
+│   ├── app/[locale]/     # App Router (en / vi)
+│   ├── components/
+│   │   └── Portfolio/     # Hero, About, Experience, Skills…
+│   ├── data/
+│   │   └── portfolio.ts   # Content: projects, skills, partners
+│   └── locales/           # en.json · vi.json
+└── README.md
 ```
+
+---
 
 ## Links
 
-- Portfolio repo: [din0dev251/honghai-portfolio](https://github.com/din0dev251/honghai-portfolio)
-- TespDev: [tespdev.com](https://tespdev.com)
-- GitHub: [din0dev251](https://github.com/din0dev251)
-- Email: honghai251.info@gmail.com
+- **Studio:** [tespdev.com](https://tespdev.com)
+- **GitHub:** [github.com/din0dev251](https://github.com/din0dev251)
+- **Email:** [honghai251.info@gmail.com](mailto:honghai251.info@gmail.com)
+- **Repo:** [din0dev251/honghai-portfolio](https://github.com/din0dev251/honghai-portfolio)
 
-## License
+---
 
-Private project. All rights reserved.
+<div align="center">
+
+© Hồng Hải · TespDev · All rights reserved.
+
+</div>
