@@ -1,6 +1,5 @@
 import { cn } from "@/lib/utils";
 import { useSidebarHandler } from "@/providers/SidebarProvider";
-import Logo from "../Logo";
 import BaseUrl from "@/constants/urls";
 import { navLinks } from "../Navbar";
 import { Link, usePathname } from "@/lib/i18nNavigation";
@@ -22,8 +21,11 @@ const Sidebar = ({ forMobile }: { forMobile?: boolean }) => {
     >
       <div className="flex h-full w-full flex-col rounded-md border bg-backgroundSidebar p-1 shadow-md">
         <div className="side-bar__logo px-2 pt-4">
-          <Link href={BaseUrl.Homepage} className="flex justify-center">
-            <Logo className="max-w-[50%]" />
+          <Link
+            href={BaseUrl.Homepage}
+            className="flex justify-center font-heading text-lg font-bold"
+          >
+            Hồng Hải
           </Link>
         </div>
 

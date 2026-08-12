@@ -7,7 +7,6 @@ import { useAuth } from "@/providers/AuthenticationProvider";
 import BaseUrl from "@/constants/urls";
 import Sidebar from "../Sidebar";
 import useResponsive from "@/hooks/useResponsive";
-import Logo from "../Logo";
 import { cn } from "@/lib/utils";
 import { useTranslations } from "next-intl";
 import { Link, usePathname } from "@/lib/i18nNavigation";
@@ -60,8 +59,8 @@ export default function Navbar() {
         )}
 
         <div className="nav__logo hidden h-full w-[180px] items-center md:flex">
-          <Link href={BaseUrl.Homepage}>
-            <Logo />
+          <Link href={BaseUrl.Homepage} className="font-heading text-lg font-bold">
+            Hồng Hải
           </Link>
         </div>
 

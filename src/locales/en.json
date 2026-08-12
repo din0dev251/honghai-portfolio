@@ -12,8 +12,8 @@
     "made_with": "Made with <author></author>."
   },
   "Index": {
-    "meta_title": "DinoDev | Portfolio",
-    "meta_description": "My portfolio page",
+    "meta_title": "Hồng Hải | Senior Frontend / Fullstack Developer",
+    "meta_description": "Frontend-focused Fullstack Developer with 6+ years of experience. Founder at TespDev. Based in Vietnam.",
     "sponsors_title": "Partners"
   },
   "About": {
@@ -23,9 +23,9 @@
     "translation_powered_by": "Translation powered by"
   },
   "Portfolio": {
-    "meta_title": "Portfolio DinoDev",
-    "meta_description": "Welcome to my portfolio page!",
-    "presentation": "Welcome to my portfolio page! Here you will find a carefully curated collection of my work and accomplishments. Through this portfolio, I'm to showcase my expertise, creativity, and the value I can bring to your projects.",
+    "meta_title": "Hồng Hải | Portfolio",
+    "meta_description": "Senior Frontend / Fullstack Developer · Founder at TespDev. Building modern web apps, enterprise systems and event technology.",
+    "presentation": "Welcome to my portfolio. Here you'll find selected work across enterprise systems, healthcare, e-commerce, event technology and digital products.",
     "portfolio_name": "Portfolio {name}",
     "error_reporting_powered_by": "Error reporting powered by",
     "coverage_powered_by": "Code coverage powered by"
@@ -33,36 +33,63 @@
   "Header": {
     "home": "Home",
     "about": "About",
-    "services": "Services",
+    "experience": "Experience",
+    "services": "What I Do",
+    "skills": "Skills",
+    "partners": "Partners",
     "projects": "Projects",
     "contact": "Contact"
   },
   "Hero": {
-    "welcome": "Welcome to my portfolio",
+    "welcome": "Senior Frontend / Fullstack Developer · Founder at TespDev",
     "hi": "Hi, I'm",
-    "web_developer": "Web Developer",
-    "base": "Base in Viet Nam."
+    "name": "Hồng Hải",
+    "web_developer": "Frontend-focused Fullstack Developer",
+    "base": "Based in Vietnam 🇻🇳",
+    "intro": "6+ years building modern web applications, enterprise systems, e-commerce platforms, and digital products. Main expertise in ReactJS, VueJS, TypeScript — with hands-on NodeJS for backend and system integration."
   },
   "AboutSection": {
     "title": "About Me",
-    "description_1": "I'm a passionate developer with a keen eye for design and a love for creating exceptional user experiences. With years of experience in web development, I specialize in building modern, responsive, and performant applications.",
-    "description_2": "My approach combines technical expertise with creative problem-solving, ensuring that every project I work on not only meets but exceeds expectations.",
-    "years_experience": "Years Experience",
-    "projects_completed": "Projects Completed"
+    "description_1": "I'm a developer who cares about both engineering quality and user experience. Beyond writing code, I enjoy turning complex business requirements into simple, reliable, and intuitive products — from internal enterprise systems to products used by real customers.",
+    "description_2": "I have experience working independently as well as leading frontend teams, collaborating closely with designers, backend developers, product owners, and business stakeholders.",
+    "description_3": "I also founded TespDev, an independent technology studio focused on building digital products and event technology for businesses. Currently, I work as a Software Engineer at Phuong Dong General Hospital, while continuing to develop TespDev and work with selected partners and clients.",
+    "domains_title": "Products I've worked across",
+    "stats_title": "Experience in Numbers"
+  },
+  "Experience": {
+    "title": "Experience",
+    "subtitle": "Roles, studio work, and selected clients & partners",
+    "clients_title": "Selected Clients & Partners",
+    "technology": "Technology"
   },
   "Services": {
-    "title": "Services",
-    "subtitle": "I offer a wide range of services to help bring your ideas to life"
+    "title": "What I Do",
+    "subtitle": "Practical digital products and systems built around real business workflows"
+  },
+  "Skills": {
+    "title": "Technical Skills",
+    "subtitle": "Frontend-first, with solid backend, database and infrastructure experience"
+  },
+  "Approach": {
+    "title": "My Approach",
+    "subtitle": "How I think about building software that lasts"
+  },
+  "Partners": {
+    "eyebrow": "Collaborations",
+    "title": "Trusted Partners",
+    "subtitle": "Selected brands and organizations that have trusted me to deliver digital products, enterprise systems, and event technology."
   },
   "Projects": {
     "title": "Featured Projects",
-    "subtitle": "A selection of my recent work showcasing my skills and expertise",
-    "live_demo": "Live Demo"
+    "subtitle": "Selected products and platforms I've worked on"
   },
   "Contact": {
-    "title": "Get In Touch",
-    "subtitle": "Have a project in mind? Let's work together to bring your ideas to life.",
+    "title": "Let's Build Something",
+    "subtitle": "Have a product idea, a business workflow that needs to be digitized, or an existing system that needs to be improved? I'd love to hear about it.",
     "contact_info": "Contact Information",
+    "profile_name": "Hồng Hải",
+    "profile_role": "Senior Frontend / Fullstack Developer",
+    "profile_studio": "Founder — TespDev",
     "name": "Name",
     "email": "Email",
     "subject": "Subject",
@@ -81,11 +108,14 @@
     "error_message": "Failed to send message. Please try again."
   },
   "Footer": {
-    "brand": "Din0dev (Hong Hai) - Front-end Developer",
-    "description": "A creative developer passionate about building beautiful and functional web experiences.",
-    "quick_links": "Quick Links",
-    "follow_me": "Follow Me",
-    "copyright": "© {year} Din0dev (Hong Hai). All rights reserved."
+    "brand": "Hồng Hải",
+    "role": "Senior Frontend / Fullstack Developer",
+    "studio": "Founder — TespDev",
+    "description": "Building modern web applications, enterprise systems, and event technology from Vietnam.",
+    "quick_links": "Explore",
+    "follow_me": "Connect",
+    "copyright": "© {year} Hồng Hải · TespDev. All rights reserved.",
+    "location": "Vietnam 🇻🇳"
   },
   "PortfolioSlug": {
     "meta_title": "Portfolio {slug}",

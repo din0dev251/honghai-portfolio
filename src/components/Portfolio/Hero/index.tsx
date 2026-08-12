@@ -16,20 +16,25 @@ export default function Hero() {
         backgroundRepeat: "no-repeat",
       }}
     >
+      <div className="absolute inset-0 bg-black/45" aria-hidden />
       <div className="container mx-auto max-w-7xl relative z-10">
         <div className="flex items-center justify-center md:justify-start">
-          {/* Content */}
           <div className="text-center md:text-left space-y-6 animate-fade-in-up max-w-4xl">
             <span className="text-sm mobile:text-base font-body text-gray-300 uppercase tracking-wider">
               {t("welcome")}
             </span>
             <h1 className="text-4xl mobile:text-5xl md:text-6xl lg:text-7xl font-heading font-bold leading-tight text-white">
-              {t("hi")} <span className="text-white">Hồng Hải</span>
+              {t("hi")} <span className="text-white">{t("name")}</span>
               <br />
-              <span className="text-white">{t("web_developer")}</span>
+              <span className="text-2xl mobile:text-3xl md:text-4xl lg:text-5xl font-semibold text-gray-100">
+                {t("web_developer")}
+              </span>
             </h1>
-            <p className="text-base mobile:text-lg md:text-xl font-body text-gray-400 max-w-2xl">
+            <p className="text-base mobile:text-lg md:text-xl font-body text-gray-300">
               {t("base")}
+            </p>
+            <p className="text-sm mobile:text-base md:text-lg font-body text-gray-400 max-w-2xl">
+              {t("intro")}
             </p>
             <div className="flex flex-col mobile:flex-row gap-4 justify-center md:justify-start pt-4">
               <div className="flex gap-4 justify-center md:justify-start">
@@ -39,6 +44,8 @@ export default function Hero() {
                     <Link
                       key={index}
                       href={social.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       aria-label={social.label}
                       className="w-10 h-10 bg-muted rounded-lg flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-colors"
                     >

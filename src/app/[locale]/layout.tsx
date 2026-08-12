@@ -21,7 +21,7 @@ export async function generateMetadata({
   return {
     title: {
       default: t("meta_title"),
-      template: "%s | Din0dev Portfolio",
+      template: "%s | Hồng Hải",
     },
     description: t("meta_description"),
     icons: [

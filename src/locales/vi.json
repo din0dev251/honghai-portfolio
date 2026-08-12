@@ -12,8 +12,8 @@
     "made_with": "Made with <author></author>."
   },
   "Index": {
-    "meta_title": "DinoDev | Portfolio",
-    "meta_description": "Trang portfolio của tôi",
+    "meta_title": "Hồng Hải | Senior Frontend / Fullstack Developer",
+    "meta_description": "Frontend-focused Fullstack Developer với hơn 6 năm kinh nghiệm. Founder tại TespDev. Dựa tại Việt Nam.",
     "sponsors_title": "Đối tác"
   },
   "Counter": {
@@ -37,9 +37,9 @@
     "translation_powered_by": "Translation powered by"
   },
   "Portfolio": {
-    "meta_title": "Portfolio DinoDev",
-    "meta_description": "Chào mừng đến với trang portfolio của tôi!",
-    "presentation": "Chào mừng đến với trang portfolio của tôi! Ở đây bạn sẽ tìm thấy một bộ sưu tập được tuyển chọn cẩn thận về công việc và thành tựu của tôi. Thông qua portfolio này, tôi muốn thể hiện chuyên môn, sự sáng tạo và giá trị mà tôi có thể mang lại cho các dự án của bạn.",
+    "meta_title": "Hồng Hải | Portfolio",
+    "meta_description": "Senior Frontend / Fullstack Developer · Founder tại TespDev. Xây dựng web app hiện đại, hệ thống doanh nghiệp và event technology.",
+    "presentation": "Chào mừng đến portfolio của tôi — các dự án về hệ thống doanh nghiệp, y tế, thương mại điện tử, event technology và sản phẩm số.",
     "portfolio_name": "Portfolio {name}",
     "error_reporting_powered_by": "Error reporting powered by",
     "coverage_powered_by": "Code coverage powered by"
@@ -82,36 +82,63 @@
   "Header": {
     "home": "Trang chủ",
     "about": "Giới thiệu",
-    "services": "Dịch vụ",
+    "experience": "Kinh nghiệm",
+    "services": "Công việc",
+    "skills": "Kỹ năng",
+    "partners": "Đối tác",
     "projects": "Dự án",
     "contact": "Liên hệ"
   },
   "Hero": {
-    "welcome": "Chào mừng đến với portfolio của tôi",
+    "welcome": "Senior Frontend / Fullstack Developer · Founder tại TespDev",
     "hi": "Xin chào, tôi là",
-    "web_developer": "Web Developer",
-    "base": "Đặt tại Việt Nam."
+    "name": "Hồng Hải",
+    "web_developer": "Frontend-focused Fullstack Developer",
+    "base": "Dựa tại Việt Nam 🇻🇳",
+    "intro": "Hơn 6 năm xây dựng ứng dụng web hiện đại, hệ thống doanh nghiệp, nền tảng thương mại điện tử và sản phẩm số. Chuyên môn chính: ReactJS, VueJS, TypeScript — kèm kinh nghiệm NodeJS cho backend và tích hợp hệ thống."
   },
   "AboutSection": {
     "title": "Về Tôi",
-    "description_1": "Tôi là một developer đam mê với con mắt tinh tế về thiết kế và tình yêu với việc tạo ra những trải nghiệm người dùng xuất sắc. Với nhiều năm kinh nghiệm trong phát triển web, tôi chuyên về việc xây dựng các ứng dụng hiện đại, responsive và hiệu suất cao.",
-    "description_2": "Phương pháp của tôi kết hợp chuyên môn kỹ thuật với giải quyết vấn đề sáng tạo, đảm bảo rằng mọi dự án tôi làm việc không chỉ đáp ứng mà còn vượt quá mong đợi.",
-    "years_experience": "Năm Kinh Nghiệm",
-    "projects_completed": "Dự Án Hoàn Thành"
+    "description_1": "Tôi là developer quan tâm cả chất lượng kỹ thuật và trải nghiệm người dùng. Ngoài viết code, tôi thích biến yêu cầu nghiệp vụ phức tạp thành sản phẩm đơn giản, ổn định và trực quan — từ hệ thống nội bộ đến sản phẩm phục vụ khách hàng thực.",
+    "description_2": "Tôi có kinh nghiệm làm việc độc lập cũng như dẫn dắt team frontend, phối hợp chặt với designer, backend, product owner và stakeholder nghiệp vụ.",
+    "description_3": "Tôi cũng là founder của TespDev — studio công nghệ độc lập tập trung xây dựng sản phẩm số và event technology cho doanh nghiệp. Hiện tôi làm Kỹ sư phần mềm tại Bệnh viện Đa khoa Phương Đông, đồng thời tiếp tục phát triển TespDev và hợp tác với một số đối tác/khách hàng chọn lọc.",
+    "domains_title": "Các loại sản phẩm tôi đã làm",
+    "stats_title": "Kinh nghiệm theo con số"
+  },
+  "Experience": {
+    "title": "Kinh Nghiệm",
+    "subtitle": "Vai trò, studio và khách hàng / đối tác tiêu biểu",
+    "clients_title": "Khách hàng & Đối tác",
+    "technology": "Công nghệ"
   },
   "Services": {
-    "title": "Dịch Vụ",
-    "subtitle": "Tôi cung cấp nhiều loại dịch vụ để giúp biến ý tưởng của bạn thành hiện thực"
+    "title": "Tôi Làm Gì",
+    "subtitle": "Sản phẩm số và hệ thống thực tế, gắn với quy trình nghiệp vụ"
+  },
+  "Skills": {
+    "title": "Kỹ Năng Kỹ Thuật",
+    "subtitle": "Ưu tiên frontend, kèm backend, database và hạ tầng"
+  },
+  "Approach": {
+    "title": "Cách Tiếp Cận",
+    "subtitle": "Cách tôi nghĩ về việc xây phần mềm bền vững"
+  },
+  "Partners": {
+    "eyebrow": "Hợp tác",
+    "title": "Đối tác tin cậy",
+    "subtitle": "Những thương hiệu và tổ chức đã tin tưởng đồng hành trong các dự án sản phẩm số, hệ thống doanh nghiệp và event technology."
   },
   "Projects": {
     "title": "Dự Án Nổi Bật",
-    "subtitle": "Một lựa chọn các công việc gần đây của tôi thể hiện kỹ năng và chuyên môn",
-    "live_demo": "Live Demo"
+    "subtitle": "Một số sản phẩm và nền tảng tôi đã tham gia"
   },
   "Contact": {
-    "title": "Liên Hệ",
-    "subtitle": "Có dự án trong đầu? Hãy cùng nhau biến ý tưởng của bạn thành hiện thực.",
+    "title": "Cùng Xây Dựng Điều Gì Đó",
+    "subtitle": "Bạn có ý tưởng sản phẩm, quy trình cần số hóa, hoặc hệ thống cần cải thiện? Tôi rất muốn nghe.",
     "contact_info": "Thông Tin Liên Hệ",
+    "profile_name": "Hồng Hải",
+    "profile_role": "Senior Frontend / Fullstack Developer",
+    "profile_studio": "Founder — TespDev",
     "name": "Tên",
     "email": "Email",
     "subject": "Chủ đề",
@@ -130,11 +157,14 @@
     "error_message": "Gửi tin nhắn thất bại. Vui lòng thử lại."
   },
   "Footer": {
-    "brand": "Din0dev (Hồng Hải) - Front-end Developer",
-    "description": "Một developer sáng tạo đam mê xây dựng những trải nghiệm web đẹp và chức năng.",
-    "quick_links": "Liên Kết Nhanh",
-    "follow_me": "Theo Dõi Tôi",
-    "copyright": "© {year} Din0dev (Hồng Hải). Tất cả quyền được bảo lưu."
+    "brand": "Hồng Hải",
+    "role": "Senior Frontend / Fullstack Developer",
+    "studio": "Founder — TespDev",
+    "description": "Xây dựng web app hiện đại, hệ thống doanh nghiệp và event technology từ Việt Nam.",
+    "quick_links": "Khám phá",
+    "follow_me": "Kết nối",
+    "copyright": "© {year} Hồng Hải · TespDev. Đã đăng ký bản quyền.",
+    "location": "Việt Nam 🇻🇳"
   }
 }
 

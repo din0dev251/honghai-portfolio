@@ -46,9 +46,33 @@ export default function Contact() {
               <h3 className="text-2xl mobile:text-3xl font-heading font-semibold mb-6">
                 {t("contact_info")}
               </h3>
+
+              <div className="mb-8 p-5 rounded-2xl border border-border bg-background">
+                <p className="text-xl font-heading font-bold">{t("profile_name")}</p>
+                <p className="text-sm mobile:text-base font-body text-muted-foreground mt-1">
+                  {t("profile_role")}
+                </p>
+                <p className="text-sm mobile:text-base font-body text-primary mt-1">
+                  {t("profile_studio")}
+                </p>
+              </div>
+
               <div className="space-y-4">
                 {portfolioContactInfo.map((contact) => {
                   const Icon = contact.icon;
+                  const valueNode = contact.href ? (
+                    <a
+                      href={contact.href}
+                      target={contact.href.startsWith("mailto:") ? undefined : "_blank"}
+                      rel={contact.href.startsWith("mailto:") ? undefined : "noopener noreferrer"}
+                      className="font-body text-muted-foreground hover:text-primary transition-colors break-all"
+                    >
+                      {contact.value}
+                    </a>
+                  ) : (
+                    <p className="font-body text-muted-foreground">{contact.value}</p>
+                  );
+
                   return (
                     <div key={contact.label} className="flex items-start gap-4">
                       <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
@@ -56,7 +80,7 @@ export default function Contact() {
                       </div>
                       <div>
                         <h4 className="font-heading font-semibold mb-1">{contact.label}</h4>
-                        <p className="font-body text-muted-foreground">{contact.value}</p>
+                        {valueNode}
                       </div>
                     </div>
                   );
